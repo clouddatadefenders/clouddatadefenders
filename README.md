@@ -1,4 +1,4 @@
-# Fashion E-Commerce Website Hosting Project on AWS
+# Hosting a Secure E-Commerce Website on AWS
 
 # Introduction
 
@@ -6,7 +6,7 @@ This project involves deploying a fully functional fashion e-commerce website us
 
 The project made use of cloud technologies which involves AWS S3 bucket for storing the content of the website and hosting the website and Route 53 to configure a custom domain name for easy availability.
 
-## Project workflow
+## Project overview
 
 This project involved setting up a fully functional, static e-commerce website hosted on AWS infrastructure. Our primary objectives were:
 - To host the website files on AWS S3, allowing for scalable and secure static content delivery.
@@ -16,26 +16,62 @@ This project involved setting up a fully functional, static e-commerce website h
 
 - **AWS S3**: Used to store and serve the website's static files (HTML, CSS, JavaScript, images).
 - **AWS Route 53**: Configured for domain name management and DNS routing.
+- 
+## Project Workflow
 
-## Project Structure
+![Alt pic](Pic/IMG_20241105_231955_839.jpg)
 
-├── assets/ │ ├── css/ │ ├── images/ │ └── js/ ├── index.html ├── about.html ├── products.html └── README.md
+The above picture illustrate the path taken to archive the aim of the project. This workfkow made use of the waterfall methodolgy of project planning. 
 
-markdown
-Copy code
+- The first layer involves preparing the site source code. 
+- The Second layer is Uploading of the souce code to AWS S3    Bucket and setting permissions for website hosting.
+- The third layer involves configuration of AWS Route 53 for domain name management and DNS routing 
 
-- **assets/**: Contains all CSS, JavaScript, and image files for styling and functionality.
-- **index.html**: The home page of the website.
-- **about.html**: An informational page about the e-commerce store.
-- **products.html**: A product listing page displaying available items.
 
 ## Getting Started
 
 To view and interact with the project:
 
+1. Download the source code uploaded in this repository
+2. Upload Your Site Files to an S3 Bucket
+   Follow the process listed below:
+    1. Go to the S3 Console: AWS S3 Console.
+    2. Click Create bucket.
+    3. Enter a Bucket name that matches your domain name
+       exactly (e.g., example.com).
+    4. Choose the Region closest to your target audience.
+    5. Under Bucket settings for Block Public Access,
+      uncheck Block all public access and confirm.
+    6. Click Create bucket.
+    7. Upload the souce code downloaded into the bucket
+       created 
+3. Configure the Bucket for Static Website Hosting
+    1. In your S3 bucket, go to the Properties tab.
+    2. Scroll to Static website hosting and click Edit.
+    3. Choose Host a static website.
+    4. For Index document, enter index.html or your main
+       page file.
+   5. Optionally, add a custom error page under Error
+      document (e.g., 404.html).
+   6. Click Save changes.
+4. Click on Bucket policy and then Edit.
+   Paste the following policy, replacing your-bucket-name with your actual bucket name:
+
+   
+
+
+4. Click Save changes.
+      
 1. Clone the repository to your local environment:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+
+
+
+
+
+
+
+
+
 Accessing the Hosted Website:
 
 The website is hosted on an S3 bucket configured for static website hosting.
@@ -59,10 +95,7 @@ Another Team Member
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-markdown
-Copy code
 
----
 
 ### Explanation of Sections:
 

@@ -1,8 +1,12 @@
-# E-Commerce Website on AWS
+# Fashion E-Commerce Website Hosting Project on AWS
 
-This repository contains the files and documentation for our project, an e-commerce website hosted on AWS. Our team used AWS S3 for static website hosting and Route 53 to configure a custom domain name.
+# Introduction
 
-## Project Overview
+This project involves deploying a fully functional fashion e-commerce website using Amazon Web Services (AWS) to ensure high availability, security, and scalability.
+
+The project made use of cloud technologies which involves AWS S3 bucket for storing the content of the website and hosting the website and Route 53 to configure a custom domain name for easy availability.
+
+## Project workflow
 
 This project involved setting up a fully functional, static e-commerce website hosted on AWS infrastructure. Our primary objectives were:
 - To host the website files on AWS S3, allowing for scalable and secure static content delivery.

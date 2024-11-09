@@ -27,5 +27,11 @@ The above picture illustrate the path taken to archive the aim of the project. T
 - The Second layer is Uploading of the souce code to AWS S3    Bucket and setting permissions for website hosting.
 - The third layer involves configuration of AWS Route 53 for domain name management and DNS routing 
 
-## Archive
+## Project Deliverables
+![Alt pic](Pic/photo_2024-11-09_11-13-57.jpg)
+This repository contains the deliverables for the Fashion E-Commerce Website project developed by DataDefender in collaboration with a leading fashion company. This site is designed to provide a seamless shopping experience with fast load times, a user-friendly interface, and optimized performance for customers worldwide.
+
+Kindy CLICK on the project documentation to understand how to replicate the project
+
+## *[Project Documentation](https://docs.google.com/document/d/17W4thh3MzxcX0M76rQ3c8h3sQezrr8xZTPF9ou1I3RA/edit?usp=sharing)*
 

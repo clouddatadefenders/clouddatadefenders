@@ -19,7 +19,7 @@ This project involved setting up a fully functional, static e-commerce website h
 - 
 ## Project Workflow
 
-![Alt pic](Pic/IMG_20241105_231955_839.jpg)
+![Alt pic](Pic/photo_2024-11-09_11-05-07.jpg)
 
 The above picture illustrate the path taken to archive the aim of the project. This workfkow made use of the waterfall methodolgy of project planning. 
 
